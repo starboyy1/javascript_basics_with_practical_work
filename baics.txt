@@ -1,0 +1,5 @@
+naming convension     Example
+1 camelCase           cartQuantity    // we capital even word except first //standard for js
+2 PascelCase          CartQuantity    //capital all
+3 kebab-case          cart-quantity    //use in html css
+4 snake_case          cart_quantity

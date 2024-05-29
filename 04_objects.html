@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!--tells computer to use modern version of html-->
+<html>
+  <head>
+   <title>Objects</title>
+
+  </head>
+  <body>
+    
+    
+    <script> 
+    /*
+      const product ={
+        name : 'socks',
+        price : 30
+
+      };
+      console.log(product);
+      console.log(product.name);
+      console.log(product.price);
+      product.name = 'cotton socks';
+      console.log(product.name);
+      console.log(product);
+      */
+
+    //methods use to access objects
+    const company ={
+      employes : '5',
+      boss :'2',
+      rating :{         //nested object
+        stars : '4.6',
+        count : '7'
+      },
+      func : function function1()
+      {
+        console.log('function inside object');
+      }
+    };
+      //first method dot notation
+      console.log(company.employes);
+      console.log(company.rating.stars);
+
+      // bracket notation
+      console.log(company['employes']);
+      console.log(company['rating']['stars']);
+
+      //calling function
+      company.func();
+      
+      // function stored in object is called method example is
+      console.log(typeof console); // console is object
+      console.log(typeof console.log);//log is function 
+      // another example is 
+      console.log(typeof Math);//object  and .random is function
+      //also knowns as built in objects 2 more are
+      // json,localstorage
+      // to convert javascript object to JSON
+
+      console.log(JSON.stringify(company));
+
+      //to convert back to javscript
+      const a = JSON.stringify(company);
+      console.log(JSON.parse(a));
+
+    
+
+    </script>
+  </body>
+</html>

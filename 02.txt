@@ -1,0 +1,7 @@
+==          convert both into same type and then check true or false
+===         tell with not chnging type //good practice
+
+
+(5 > 2-3)   so first operation will be solve and then will check boolean
+
+falsy value in javscript (false ,0 , ' ' , undefined , Nan)

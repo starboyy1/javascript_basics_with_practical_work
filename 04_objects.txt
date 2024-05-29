@@ -1,0 +1,16 @@
+ // function stored in object is called method example is
+      console.log(typeof console); // console is object
+      console.log(typeof console.log);//log is function 
+      // another example is 
+      console.log(typeof Math);//object  and .random is function
+      //also knowns as built in objects 2 more are
+      // json,localstorage
+      
+
+
+      why we use JSON?
+      ans is json ios universal known in almost every programing lang 
+      1. when we send data between computer.
+      2. when we store data.
+      why we use local storage?
+      we use to save values more permanently.its support only strings.
